@@ -18,7 +18,7 @@ services:
       context: .
       dockerfile: Dockerfile.bot
     extra_hosts:
-      - "host.docker.internal:host-gateway
+      - "host.docker.internal:host-gateway"
     env_file:
       - ./.env
     volumes:
