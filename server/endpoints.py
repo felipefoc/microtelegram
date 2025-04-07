@@ -1,4 +1,4 @@
-BASE_URL = "http://host.docker.internal:8000"
+BASE_URL = "http://host.docker.internal:8100"
 BASE_EXPENSE = "/expense"
 
 ADD_EXPENSE_ENDPOINT = f"{BASE_URL}/{BASE_EXPENSE}/add"
